@@ -1,7 +1,9 @@
 *:root {
     font-family: 'Work Sans', sans-serif;
-        --index-text: #fc5146;
+        --index-text: #E74C3C;
         --index-background: #F5F5F5;
+        --cultural-1-background: #cc7400;
+        --technical-1-background: #3a9301;
         color: var(--index-text);
 }
 #top-nav {
