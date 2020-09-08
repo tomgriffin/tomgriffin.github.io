@@ -1,0 +1,40 @@
+*:root {
+    font-family: 'Times New Roman', Times, serif;
+}
+#top-nav {
+    color: blue;
+    background-color: blueviolet;
+    height: 150px;
+    padding-top: 10px;
+}
+#home {
+    background-color: coral;
+    height: 45px;
+}
+#technical-tree {
+    background-color: darkgoldenrod;
+    height: 45px;
+    
+}
+#core-tree {
+    background-color: greenyellow;
+    height: 45px;
+    
+}
+#blog-heading {
+    background-color: khaki;
+    height: 45px;
+}
+#about-me {
+    background-color: lightcyan;
+    height: 400px;
+    display: flex;
+}
+#about-me-image {
+    border-width: medium;
+}
+#about-me-text {
+
+    background-color: slategrey;
+    color: peachpuff;
+}
