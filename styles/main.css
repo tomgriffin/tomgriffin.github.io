@@ -1,39 +1,39 @@
 *:root {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Work Sans', sans-serif;
+        --index-text: #fc5146;
+        --index-background: #F5F5F5;
+        color: var(--index-text);
 }
 #top-nav {
-    background-color: darkslateblue;
+    background-color: var(--index-background);
     height: 150px;
     padding-top: 10px;
 }
 #home {
-    background-color: #ffe6d7;
+    background-color: var(--index-background);
     height: 45px;
 }
 #technical-tree {
-    background-color: lightseagreen;
+    background-color: var(--index-background);
     height: 45px;
     
 }
 #core-tree {
-    background-color: lavenderblush;
+    background-color: var(--index-background);
     height: 45px;
     
 }
 #blog-heading {
-    background-color: khaki;
+    background-color: var(--index-background);
     height: 45px;
 }
 #about-me {
-    background-color: lightcyan;
+    background-color: var(--index-background);
     height: 400px;
     display: flex;
 }
-#about-me-image {
-    border-width: medium;
-}
 #about-me-text {
 
-    background-color: slategrey;
-    color: peachpuff;
+    background-color: var(--index-background);
+    color: var(--index-text);
 }
