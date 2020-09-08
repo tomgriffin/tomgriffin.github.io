@@ -2,22 +2,21 @@
     font-family: 'Times New Roman', Times, serif;
 }
 #top-nav {
-    color: blue;
-    background-color: blueviolet;
+    background-color: darkslateblue;
     height: 150px;
     padding-top: 10px;
 }
 #home {
-    background-color: coral;
+    background-color: #ffe6d7;
     height: 45px;
 }
 #technical-tree {
-    background-color: darkgoldenrod;
+    background-color: lightseagreen;
     height: 45px;
     
 }
 #core-tree {
-    background-color: greenyellow;
+    background-color: lavenderblush;
     height: 45px;
     
 }
