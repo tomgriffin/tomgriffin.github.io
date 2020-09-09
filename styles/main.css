@@ -4,7 +4,7 @@
         --blog-entry-text: #212121;
         --index-background: #F5F5F5;
         --cultural-1-background: #cc7400;
-        --technical-1-background: #3a9301;
+        --technical-1-background: #5b7742; 
         color: var(--index-text);
         background-color: var(--index-background);
 }
@@ -43,4 +43,8 @@ a {
     width: 600px;
     margin-right: 30pt;
     padding-top: 20pt;
+}
+#t1body {
+    background-color: var(--technical-1-background);
+    color: var(--blog-entry-text);
 }
