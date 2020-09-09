@@ -6,19 +6,41 @@
         --cultural-1-background: #cc7400;
         --technical-1-background: #3a9301;
         color: var(--index-text);
+        background-color: var(--index-background);
 }
 #nav {
-    background-color: var(--index-background);
+    display: flex;
+    color: var(--index-text);
+}
+#nav-ul {
+    color: var(--index-text);    
+}
+#nav-a-home {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: var(--index-text);
+    margin-right: 50pt;
 }
 #hero-title {
-    background-color: var(--index-background);
+    font-size: 150pt;
+    text-align: center;
+    margin-top: 75pt;
+    margin-bottom: 75pt;
 }
 #body-text {
     background-color: var(--index-background);
     display: flex;
 }
 #wide-column {
+    width: 600px;
+    font-size: 24pt;
+    margin-right: 40pt;
+    padding-left: 30pt;
 }
 #narrow-column {
-    
+    width: 600px;
+    margin-right: 30pt;
+    padding-top: 20pt;
 }
