@@ -60,7 +60,7 @@ a {
 }
 #t1body {
     background-color: var(--technical-1-background);
-    color: var(--blog-entry-text);
+    color: var(--blog-entry-text);;
 }
 #t2-body {
     background-color: var(--technical-2-background);
@@ -75,3 +75,18 @@ table, th, td {
     vertical-align: middle;
     padding: 10px;
   }
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#magazine-cover-shot {
+    height: 600px;
+}
+#blog-and-css {
+    width: 50%;
+}
+article {
+    margin-left: 100px;
+    margin-right: 100px;
+}
