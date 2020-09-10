@@ -15,17 +15,21 @@
 #nav-ul {
     color: var(--index-text);    
 }
-#nav-a-home {
+#nav-a-home {   
     text-decoration: none;
+    border-bottom: var(--index-text) 0.1em solid;
+    text-underline-offset: 15px;
 }
 a {
     text-decoration: none;
     color: var(--index-text);
     margin-right: 50pt;
 }
-#hero-title {
+.hero-title {
     font-size: 150pt;
     text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.125em;
     margin-top: 75pt;
     margin-bottom: 75pt;
 }
@@ -43,6 +47,7 @@ a {
     width: 600px;
     margin-right: 30pt;
     padding-top: 20pt;
+    line-height: 1.2;
 }
 #t1body {
     background-color: var(--technical-1-background);
