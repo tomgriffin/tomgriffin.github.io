@@ -72,21 +72,37 @@ I didn't have the patience to think about what classes I'd need - because I didn
         </p>
         <table>
             <tr>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Age</th>
+              <th>Comparison point</th>
+              <th>ID's</th>
+              <th>Classes</th>
+              <th>Creating my first blog page</th>
+              <th>Maintaining & collaborating on the blog in the future</th>
             </tr>
             <tr>
-              <td>Jill</td>
-              <td>Smith</td>
-              <td>50</td>
+              <td>Syntax</td>
+              <td>html: &lt;h1 id=&quot;hero-title&quot;&gt; <br>
+                css: #hero-title {}
+                </td>
+              <td>html: &lt;h1 class=&quot;hero-title&quot;&gt; <br>
+                css: .hero-title {}</td>
+              <td>Syntax differences are trivial</td>
+              <td>Syntax differences are trivial</td>
             </tr>
             <tr>
-              <td>Eve</td>
-              <td>Jackson</td>
-              <td>94</td>
+              <td>Scope</td>
+              <td>Identify a single element and need to be unique</td>
+              <td>Classify a group of elements</td>
+              <td>I was working on styling one element at a time. So ID’s were great because any changes would only affect the element with that ID.
+
+                <br><br>But if I wanted to style 2 or 3 elements in the same way e.g. items in the top nav, I’d need to repeat the style for each element
+                </td>
+              <td>It’ll be too hard to keep ID’s unique going forward.
+
+                <br><br>I’ll definitely want to style elements in common groups and classes are the best way to do this. Apply the style to the class and all elements in the class will get updated.
+                </td>
             </tr>
           </table> 
+        <p>In the end, I think ID’s were fine for an initial hack-together of a design on a single page. For any other purpose, classes will be better.</p>
     </article>
   </body>
 </html>
