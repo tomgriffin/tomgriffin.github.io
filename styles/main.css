@@ -35,9 +35,9 @@ a {
     margin-bottom: 75pt;
 }
 #article-title {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 50pt;
+    font-size: 24pt;
     text-align: center;
+    text-decoration: underline;
 }
 .article-body-text {
 
