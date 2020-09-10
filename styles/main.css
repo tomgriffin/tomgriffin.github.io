@@ -39,9 +39,6 @@ a {
     text-align: center;
     text-decoration: underline;
 }
-.article-body-text {
-
-}
 #body-text {
     background-color: var(--index-background);
     display: flex;
