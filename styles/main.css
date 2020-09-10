@@ -5,6 +5,7 @@
         --index-background: #F5F5F5;
         --cultural-1-background: #cc7400;
         --technical-1-background: #5b7742; 
+        --technical-2-background: #ffcdee;
         color: var(--index-text);
         background-color: var(--index-background);
 }
@@ -33,6 +34,14 @@ a {
     margin-top: 75pt;
     margin-bottom: 75pt;
 }
+#article-title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50pt;
+    text-align: center;
+}
+.article-body-text {
+
+}
 #body-text {
     background-color: var(--index-background);
     display: flex;
@@ -51,5 +60,9 @@ a {
 }
 #t1body {
     background-color: var(--technical-1-background);
+    color: var(--blog-entry-text);
+}
+#t2-body {
+    background-color: var(--technical-2-background);
     color: var(--blog-entry-text);
 }
