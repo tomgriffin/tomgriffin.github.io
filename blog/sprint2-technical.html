@@ -48,9 +48,9 @@ So I sketched out a basic design using paper and pencil and started following th
 <br><br>
 Once I finally got to the fun part - styling my pages like the magazine, I was really, really eager to get stuck in. I had my html page and added my title, navigation links, and some text about me. I quickly wanted to get the css going so I could start styling.
 <br><br>
-To style the blog's title <span style="font-style: italic;">T.Here</span>, the quickest thing I could think of was to give the &lt;div&gt; and &lt;h1&gt; elements each an id so I could put the id in the css file and start associating styles to it.
+To style the blog's title <span style="font-style: italic;">T.Here</span> element, the quickest thing I could think of was to give the &lt;div&gt; and &lt;h1&gt; elements each an id, so I could put the id in the css file and start associating styles to it.
 
-I didn't have the patience to think about what classes I'd need - because I didn't know how the actual design would look.
+<br><br>I didn't have the patience to think about what classes I'd need - because I didn't know how the actual design would look.
 
             <ul>
                 <li>
@@ -68,7 +68,7 @@ I didn't have the patience to think about what classes I'd need - because I didn
     <article>
         <p class="article-body-text">
             It took about an hour of finding colours, fonts, changing font size, aligning to the centre and fiddling with the padding before I was happy enough.
-            <br><br>So should I have used Classes rather than id's? Let’s compare the two and think about the trade offs in using one or the other.
+            <br><br>So should I have used classes rather than id's? Let’s compare the two and think about the trade-offs in using one or the other.
         </p>
         <table>
             <tr>
@@ -80,10 +80,10 @@ I didn't have the patience to think about what classes I'd need - because I didn
             </tr>
             <tr>
               <td>Syntax</td>
-              <td>html: &lt;h1 id=&quot;hero-title&quot;&gt; <br>
+              <td class="no-wrap">html: &lt;h1 id=&quot;hero-title&quot;&gt; <br>
                 css: #hero-title {}
                 </td>
-              <td>html: &lt;h1 class=&quot;hero-title&quot;&gt; <br>
+              <td class="no-wrap">html: &lt;h1 class=&quot;hero-title&quot;&gt; <br>
                 css: .hero-title {}</td>
               <td>Syntax differences are trivial</td>
               <td>Syntax differences are trivial</td>
@@ -102,7 +102,7 @@ I didn't have the patience to think about what classes I'd need - because I didn
                 </td>
             </tr>
           </table> 
-        <p>In the end, I think ID’s were fine for an initial hack-together of a design on a single page. For any other purpose, classes will be better.</p>
+        <p>In the end, I think id’s were fine for an initial hack-together of a design on a single page. For any other purpose, classes will be better.</p>
     </article>
   </body>
 </html>
