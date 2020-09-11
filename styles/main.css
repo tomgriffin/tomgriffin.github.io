@@ -39,6 +39,7 @@ a {
     font-size: 24pt;
     text-align: center;
     text-decoration: underline;
+    text-underline-offset: 15px;
 }
 #body-text {
     background-color: var(--index-background);
@@ -86,7 +87,7 @@ table, th, td {
 }
 article {
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 .no-wrap {
     white-space: nowrap;
@@ -96,8 +97,14 @@ h2 {
     font-size: 16pt;
     text-align: left;
     text-decoration: underline;
+    text-underline-offset: 10px;
+    line-height: 1.5;
 }
 #c2-body {
     color: var(--blog-entry-text);
     background-color: var(--cultural-2-background);
+    font-family: 'Work Sans', sans-serif;
+}
+.c2-p {
+    margin-right: 250px;
 }
