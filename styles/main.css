@@ -40,6 +40,7 @@ a {
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 15px;
+    margin-bottom: 75px;
 }
 #body-text {
     background-color: var(--index-background);
