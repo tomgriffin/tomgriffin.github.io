@@ -4,6 +4,7 @@
         --blog-entry-text: #212121;
         --index-background: #F5F5F5;
         --cultural-1-background: #cc7400;
+        --cultural-2-background: cadetblue;
         --technical-1-background: #759956; 
         --technical-2-background: #ffcdee;
         color: var(--index-text);
@@ -89,4 +90,14 @@ article {
 }
 .no-wrap {
     white-space: nowrap;
+}
+h2 {
+    color: var(--blog-entry-text);
+    font-size: 16pt;
+    text-align: left;
+    text-decoration: underline;
+}
+#c2-body {
+    color: var(--blog-entry-text);
+    background-color: var(--cultural-2-background);
 }
