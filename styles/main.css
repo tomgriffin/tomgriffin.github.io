@@ -3,7 +3,7 @@
         --index-text: #E74C3C;
         --blog-entry-text: #212121;
         --index-background: #F5F5F5;
-        --cultural-1-background: #cc7400;
+        --cultural-1-background: #f79862;
         --cultural-2-background: cadetblue;
         --technical-1-background: #759956; 
         --technical-2-background: #ffcdee;
@@ -108,4 +108,9 @@ h2 {
 }
 .c2-p {
     margin-right: 250px;
+}
+#c1-body {
+    background-color: var(--cultural-1-background);
+    color: var(--blog-entry-text);
+    font-family: 'Work Sans', sans-serif;
 }
