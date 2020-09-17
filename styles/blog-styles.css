@@ -1,0 +1,12 @@
+*:root {
+    font-family: 'Work Sans', sans-serif;
+        --blog-entry-text: #212121;
+        --cultural-1-background: #f79862;
+        --cultural-2-background: cadetblue;
+        --technical-1-background: #759956; 
+        --technical-2-background: #ffcdee;
+        color: var(--index-text);
+}
+#nav {
+    display: flex;
+}
