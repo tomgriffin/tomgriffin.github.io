@@ -10,3 +10,24 @@
 #nav {
     display: flex;
 }
+a:visited {
+    color: var(--blog-entry-text)
+}
+article {
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.cultural {
+    background-color: #759956;
+}
+
+.technical {
+    background-color: #ffcdee;
+}
+
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    line-height: 1.5;
+}
