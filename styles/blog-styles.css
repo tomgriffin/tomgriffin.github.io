@@ -1,33 +1,53 @@
 *:root {
     font-family: 'Work Sans', sans-serif;
-        --blog-entry-text: #212121;
-        --cultural-1-background: #f79862;
-        --cultural-2-background: cadetblue;
-        --technical-1-background: #759956; 
-        --technical-2-background: #ffcdee;
-        color: var(--index-text);
+        --blog-background: #F5F5F5; 
+        --cultural-blog-entry-text: #759956;
+        --technical-blog-entry-text: rgb(30 107 138)
 }
+html{
+    background-color: var(--blog-background);
+}
+
+.tech-blog-html {
+    color: var(--technical-blog-entry-text)
+}
+
+.cultural-blog-html {
+    color: var(--cultural-blog-entry-text);
+}
+
 #nav {
     display: flex;
-}
-a:visited {
-    color: var(--blog-entry-text)
-}
-article {
-    margin-left: 25vw;
-    margin-right: 25vw;
+    margin-right: 25pt;
 }
 
-.cultural {
-    background-color: #759956;
-}
-
-.technical {
-    background-color: #ffcdee;
+h1 {
+    font-size: 24pt;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    margin-bottom: 75px;
 }
 
 h2 {
     text-decoration: underline;
     text-underline-offset: 10px;
     line-height: 1.5;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+a:visited {
+    color: var(--blog-entry-text)
+}
+
+article {
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+table{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border-color: collapse;
 }
