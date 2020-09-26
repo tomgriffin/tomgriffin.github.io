@@ -7,7 +7,7 @@
         --cultural-2-background: cadetblue;
         --technical-1-background: #759956; 
         --technical-2-background: #ffcdee;
-        color: var(--cultural-1-background);
+        color: var(--index-text);
         background-color: var(--index-background);
 }
 #nav {

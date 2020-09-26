@@ -1,7 +1,7 @@
 *:root {
     font-family: 'Work Sans', sans-serif;
         --blog-background: #F5F5F5; 
-        --cultural-blog-entry-text: #759956;
+        --cultural-blog-entry-text: #5c9926;
         --technical-blog-entry-text: rgb(30 107 138)
 }
 html{
