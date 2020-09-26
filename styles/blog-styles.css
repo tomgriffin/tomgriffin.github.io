@@ -56,3 +56,9 @@ table{
     margin-right: 15vw;
     border-color: collapse;
 }
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
