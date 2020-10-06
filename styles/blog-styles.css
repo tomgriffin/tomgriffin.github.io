@@ -63,3 +63,7 @@ table{
     margin-right: auto;
     height: 900px;
 }
+
+.italics {
+    font-style: italic;
+}
